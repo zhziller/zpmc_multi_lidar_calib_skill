@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "status": "Fabricated geometry for software demonstration only; not measured calibration and not for deployment",
+  "reference_frame": "synthetic_reference",
+  "length_unit": "meter",
+  "transform_convention": "p_reference = R @ p_sensor + t",
+  "sensors": {
+    "front_left": {
+      "source_frame": "lidar_front_left",
+      "target_frame": "synthetic_reference",
+      "translation_m": [
+        3,
+        1,
+        0.03
+      ],
+      "quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "T_reference_from_sensor": [
+        [
+          1,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0.03
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "front_right": {
+      "source_frame": "lidar_front_right",
+      "target_frame": "synthetic_reference",
+      "translation_m": [
+        2.6,
+        -1.4,
+        0.01
+      ],
+      "quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "T_reference_from_sensor": [
+        [
+          1,
+          0,
+          0,
+          2.6
+        ],
+        [
+          0,
+          1,
+          0,
+          -1.4
+        ],
+        [
+          0,
+          0,
+          1,
+          0.01
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "rear_left": {
+      "source_frame": "lidar_rear_left",
+      "target_frame": "synthetic_reference",
+      "translation_m": [
+        -2.6,
+        1.4,
+        -0.01
+      ],
+      "quaternion_xyzw": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "T_reference_from_sensor": [
+        [
+          -1,
+          0,
+          0,
+          -2.6
+        ],
+        [
+          0,
+          -1,
+          0,
+          1.4
+        ],
+        [
+          0,
+          0,
+          1,
+          -0.01
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "rear_right": {
+      "source_frame": "lidar_rear_right",
+      "target_frame": "synthetic_reference",
+      "translation_m": [
+        -3,
+        -1,
+        -0.03
+      ],
+      "quaternion_xyzw": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "T_reference_from_sensor": [
+        [
+          -1,
+          0,
+          0,
+          -3
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          1,
+          -0.03
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "front_aux": {
+      "source_frame": "lidar_front_aux",
+      "target_frame": "synthetic_reference",
+      "translation_m": [
+        2.9,
+        1,
+        -0.1
+      ],
+      "quaternion_xyzw": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "T_reference_from_sensor": [
+        [
+          1,
+          0,
+          0,
+          2.9
+        ],
+        [
+          0,
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1,
+          -0.1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "rear_aux": {
+      "source_frame": "lidar_rear_aux",
+      "target_frame": "synthetic_reference",
+      "translation_m": [
+        -2.9,
+        -1,
+        -0.1
+      ],
+      "quaternion_xyzw": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "T_reference_from_sensor": [
+        [
+          1,
+          0,
+          0,
+          -2.9
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          -0.1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "roof_front": {
+      "source_frame": "lidar_roof_front",
+      "target_frame": "synthetic_reference",
+      "translation_m": [
+        2.2,
+        0,
+        2
+      ],
+      "quaternion_xyzw": [
+        0,
+        0.7071067811865476,
+        0,
+        0.7071067811865476
+      ],
+      "T_reference_from_sensor": [
+        [
+          0,
+          0,
+          1,
+          2.2
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "roof_rear": {
+      "source_frame": "lidar_roof_rear",
+      "target_frame": "synthetic_reference",
+      "translation_m": [
+        -2.2,
+        0,
+        2
+      ],
+      "quaternion_xyzw": [
+        0,
+        0.7071067811865476,
+        0,
+        0.7071067811865476
+      ],
+      "T_reference_from_sensor": [
+        [
+          0,
+          0,
+          1,
+          -2.2
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    }
+  }
+}

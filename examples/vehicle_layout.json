@@ -1,0 +1,9 @@
+{
+  "front_sensors": ["front_left", "front_right"],
+  "rear_sensors": ["rear_left", "rear_right"],
+  "diagonal_pairs": [
+    ["front_left", "rear_right"],
+    ["front_right", "rear_left"]
+  ],
+  "up_hint_in_reference": [0, 0, 1]
+}

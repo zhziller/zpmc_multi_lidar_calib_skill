@@ -1,0 +1,4 @@
+interface:
+  display_name: "多激光雷达静态外参标定"
+  short_description: "多雷达静态标定与验证，支持自定义 base_link、3D 坐标轴和 TF 导出"
+  default_prompt: "使用 $multi-lidar-calibration 按当前任务检查或标定多雷达数据；已有外参需定义或切换 base_link 时，按确认的安装规则换基并输出所需 3D 网页和 TF XML，不重新标定。"
